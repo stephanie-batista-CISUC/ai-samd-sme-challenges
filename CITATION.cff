@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset or the questionnaire, please cite it as below."
+authors:
+- family-names: "Batista"
+  given-names: "Stephanie"
+  orcid: "https://orcid.org/0000-0002-7352-5495"
+- family-names: "de Carvalho"
+  given-names: "Paulo"
+  orcid: "https://orcid.org/0000-0002-9847-0590"
+- family-names: "Bernardino"
+  given-names: "Jorge"
+  orcid: "https://orcid.org/0000-0001-9660-2011"
+title: "Empirical Study for Software as a Medical Device Development: What Are the Main Regulatory and Engineering Challenges for SMEs?"
+version: 1.0.0
+year: 2026
+url: "https://github.com/stephanie-batista-CISUC/ai-samd-sme-challenges"
+license: CC-BY-4.0
+keywords:
+- Medical Software
+- Artificial Intelligence
+- Regulatory Compliance
+- Small and Medium-sized Enterprises
+- Empirical Study
+- EU MDR
+- AI Act
+- FDA
