@@ -59,11 +59,10 @@ Response data are organized into **seven workbooks** that mirror the sections of
 | `05_challenges_prioritization.xlsx` | 5. Prioritization of Challenges | Most demanding software and AI lifecycle phases for compliance, regulatory ambiguity, documentation strategies, intensity of literature-derived challenges, proposed solutions. |
 | `06_good_practices.xlsx` | 6. Support and Needs | Methodological adjustments needed for the next 12 months, good practices producing positive results, most useful resources. |
 
-Each workbook contains one sheet per question, named after the question topic. Likert-scale items use the original 1–4 labels (e.g., `4 - High`, `2 - Disagree`). Multi-selection items use one column per option with `Yes`/`No` values. Open-ended items contain free-text answers, and all entries have been reviewed and anonymized. No organization name, product name, jurisdiction-revealing detail, or other identifier is retained.
 
 ## Response Scales
 
-All Likert items use a 4-point scale to avoid neutral midpoints and to force a tendency.
+Each workbook contains one sheet per question, named after the question topic. All Likert-scale items use a 4-point scale to avoid neutral midpoints and to force a tendency. Multi-selection items use one column per option with `Yes`/`No` values. Open-ended items contain free-text answers. No organization name, product name, jurisdiction-revealing detail, or other identifier is retained.
 
 | Scale | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|
@@ -72,8 +71,6 @@ All Likert items use a 4-point scale to avoid neutral midpoints and to force a t
 | **Challenge** | None | Low | Moderate | High |
 | **Frequency** | Never | Rarely | Frequently | Always |
 | **Impact** | None | Low | Moderate | High |
-
-Cells in the data files keep the original literal labels (e.g., `4 - High`, `2 - Disagree`) for transparency.
 
 ## Key Findings
 
