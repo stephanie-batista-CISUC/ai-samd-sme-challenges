@@ -36,7 +36,6 @@ The study is part of a Ph.D in Informatics Engineering at the **Centre for Infor
 │   └── questionnaire.pdf
 │
 └── data/                                # findings documentation
-    ├── METHODOLOGY.md
     ├── 01_background_companies.xlsx
     ├── 01_background_participants.xlsx
     ├── 02_regulatory_context.xlsx
@@ -48,7 +47,7 @@ The study is part of a Ph.D in Informatics Engineering at the **Centre for Infor
 
 ## Data Description
 
-Response data are organized into **six workbooks** that mirror the sections of the questionnaire:
+Response data are organized into **seven workbooks** that mirror the sections of the questionnaire:
 
 | File | Section | Content |
 |---|---|---|
@@ -62,7 +61,19 @@ Response data are organized into **six workbooks** that mirror the sections of t
 
 Each workbook contains one sheet per question, named after the question topic. Likert-scale items use the original 1–4 labels (e.g., `4 - High`, `2 - Disagree`). Multi-selection items use one column per option with `Yes`/`No` values. Open-ended items contain free-text answers, and all entries have been reviewed and anonymized. No organization name, product name, jurisdiction-revealing detail, or other identifier is retained.
 
-A more detailed **codebook** is available in [`data/METHODOLOGY.md`](./data/METHODOLOGY.md), including the methodology, exact wording of each question, the corresponding scale, and the encoding conventions.
+## Response Scales
+
+All Likert items use a 4-point scale to avoid neutral midpoints and to force a tendency.
+
+| Scale | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| **Agreement** | Strongly disagree | Disagree | Agree | Strongly agree |
+| **Knowledge** | No knowledge | Basic knowledge | Intermediate knowledge | Frequent/regular use |
+| **Challenge** | None | Low | Moderate | High |
+| **Frequency** | Never | Rarely | Frequently | Always |
+| **Impact** | None | Low | Moderate | High |
+
+Cells in the data files keep the original literal labels (e.g., `4 - High`, `2 - Disagree`) for transparency.
 
 ## Key Findings
 
