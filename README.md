@@ -94,7 +94,7 @@ The artifacts in this repository allow independent researchers to:
 
 ## How to Cite
 
-If you use this dataset or the questionnaire, please cite the accompanying paper. A `CITATION.cff` file is provided so that GitHub displays a "Cite this repository" button automatically.
+If you use this dataset or the questionnaire, please cite the accompanying paper. 
 
 Suggested citation (BibTeX):
 
